@@ -107,7 +107,7 @@ class ViewManager : NSObject {
         view.removeFromSuperview()
     }
     
-    func handlePan(_ recognizer: UIPanGestureRecognizer) {
+    @objc func handlePan(_ recognizer: UIPanGestureRecognizer) {
         guard let swipeableView = swipeableView else { return }
         
         let translation = recognizer.translation(in: containerView)
@@ -140,7 +140,7 @@ class ViewManager : NSObject {
         }
     }
     
-    func handleTap(_ recognizer: UITapGestureRecognizer) {
+    @objc func handleTap(_ recognizer: UITapGestureRecognizer) {
         guard let swipeableView = swipeableView, let topView = swipeableView.topView()  else { return }
         
         let location = recognizer.location(in: containerView)

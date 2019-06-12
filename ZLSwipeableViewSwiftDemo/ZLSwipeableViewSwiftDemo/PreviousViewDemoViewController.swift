@@ -41,7 +41,7 @@ class PreviousViewDemoViewController: ZLSwipeableViewController {
         let distance = max(width, height)
 
         func randomRadian() -> CGFloat {
-            return CGFloat(arc4random() % 360)  * CGFloat(M_PI / 180)
+            return CGFloat(arc4random() % 360)  * CGFloat(Double_pi / 180)
         }
 
         var transform = CGAffineTransform(rotationAngle: randomRadian())
@@ -52,7 +52,7 @@ class PreviousViewDemoViewController: ZLSwipeableViewController {
     
     // MARK: - Actions
     
-    func rightBarButtonClicked() {
+    @objc func rightBarButtonClicked() {
         self.swipeableView.rewind()
     }
 

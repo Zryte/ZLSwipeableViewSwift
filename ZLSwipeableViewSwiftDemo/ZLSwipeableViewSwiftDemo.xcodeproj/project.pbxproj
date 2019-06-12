@@ -29,7 +29,7 @@
 		466AFFF71CEB912C006FF62A /* ViewManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 466AFFF31CEB912C006FF62A /* ViewManager.swift */; };
 		466AFFF81CEB912C006FF62A /* ZLSwipeableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 466AFFF41CEB912C006FF62A /* ZLSwipeableView.swift */; };
 		946427F2EE69625DD2E9241B /* Pods_ZLSwipeableViewSwiftDemoTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9C86DA0F3A6E1F9D418584CE /* Pods_ZLSwipeableViewSwiftDemoTests.framework */; };
-		CFDAB0BCDA1CAF5B54DF76AF /* Pods_ZLSwipeableViewSwiftDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7AD45CD586A46370C71D08D2 /* Pods_ZLSwipeableViewSwiftDemo.framework */; };
+		DE18B3B0B437EC29064022A3 /* Pods_ZLSwipeableViewSwiftDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7AD45CD586A46370C71D08D2 /* Pods_ZLSwipeableViewSwiftDemo.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -69,11 +69,11 @@
 		466AFFF21CEB912C006FF62A /* Scheduler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Scheduler.swift; sourceTree = "<group>"; };
 		466AFFF31CEB912C006FF62A /* ViewManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewManager.swift; sourceTree = "<group>"; };
 		466AFFF41CEB912C006FF62A /* ZLSwipeableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZLSwipeableView.swift; sourceTree = "<group>"; };
-		4AEF23DC622C3A7E809F3742 /* Pods-ZLSwipeableViewSwiftDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZLSwipeableViewSwiftDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-ZLSwipeableViewSwiftDemo/Pods-ZLSwipeableViewSwiftDemo.release.xcconfig"; sourceTree = "<group>"; };
-		4BA34855EB4A4C2074C86E94 /* Pods-ZLSwipeableViewSwiftDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZLSwipeableViewSwiftDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ZLSwipeableViewSwiftDemo/Pods-ZLSwipeableViewSwiftDemo.debug.xcconfig"; sourceTree = "<group>"; };
 		7AD45CD586A46370C71D08D2 /* Pods_ZLSwipeableViewSwiftDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ZLSwipeableViewSwiftDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9C86DA0F3A6E1F9D418584CE /* Pods_ZLSwipeableViewSwiftDemoTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ZLSwipeableViewSwiftDemoTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C998BF9C49543ECF772E8671 /* Pods-ZLSwipeableViewSwiftDemoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZLSwipeableViewSwiftDemoTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ZLSwipeableViewSwiftDemoTests/Pods-ZLSwipeableViewSwiftDemoTests.release.xcconfig"; sourceTree = "<group>"; };
+		CBC41A6172548089D989FB06 /* Pods-ZLSwipeableViewSwiftDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZLSwipeableViewSwiftDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-ZLSwipeableViewSwiftDemo/Pods-ZLSwipeableViewSwiftDemo.release.xcconfig"; sourceTree = "<group>"; };
+		D476355E70B6A230FE0C373E /* Pods-ZLSwipeableViewSwiftDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZLSwipeableViewSwiftDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ZLSwipeableViewSwiftDemo/Pods-ZLSwipeableViewSwiftDemo.debug.xcconfig"; sourceTree = "<group>"; };
 		E98741382FDFBC754EDA0B1E /* Pods-ZLSwipeableViewSwiftDemoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZLSwipeableViewSwiftDemoTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ZLSwipeableViewSwiftDemoTests/Pods-ZLSwipeableViewSwiftDemoTests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -82,7 +82,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CFDAB0BCDA1CAF5B54DF76AF /* Pods_ZLSwipeableViewSwiftDemo.framework in Frameworks */,
+				DE18B3B0B437EC29064022A3 /* Pods_ZLSwipeableViewSwiftDemo.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -192,10 +192,10 @@
 		2D6DC7A383D6085A240A1A07 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				4BA34855EB4A4C2074C86E94 /* Pods-ZLSwipeableViewSwiftDemo.debug.xcconfig */,
-				4AEF23DC622C3A7E809F3742 /* Pods-ZLSwipeableViewSwiftDemo.release.xcconfig */,
 				E98741382FDFBC754EDA0B1E /* Pods-ZLSwipeableViewSwiftDemoTests.debug.xcconfig */,
 				C998BF9C49543ECF772E8671 /* Pods-ZLSwipeableViewSwiftDemoTests.release.xcconfig */,
+				D476355E70B6A230FE0C373E /* Pods-ZLSwipeableViewSwiftDemo.debug.xcconfig */,
+				CBC41A6172548089D989FB06 /* Pods-ZLSwipeableViewSwiftDemo.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -207,12 +207,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 09673A9D1AEF5B2E008C7240 /* Build configuration list for PBXNativeTarget "ZLSwipeableViewSwiftDemo" */;
 			buildPhases = (
-				D24BFC2495CE4E130B5E094B /* [CP] Check Pods Manifest.lock */,
+				06EAF6B06624D9AF4CE82C6F /* [CP] Check Pods Manifest.lock */,
 				09673A7A1AEF5B2E008C7240 /* Sources */,
 				09673A7B1AEF5B2E008C7240 /* Frameworks */,
 				09673A7C1AEF5B2E008C7240 /* Resources */,
-				E5D2B40DEBA6A247D56624AF /* [CP] Embed Pods Frameworks */,
-				BA28B0EB3A205B986C485274 /* [CP] Copy Pods Resources */,
+				C4886EB76F075B216CC700E8 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -232,7 +231,6 @@
 				09673A901AEF5B2E008C7240 /* Frameworks */,
 				09673A911AEF5B2E008C7240 /* Resources */,
 				F8F67696DEC4CE910050511D /* [CP] Embed Pods Frameworks */,
-				B70B17461CAA93E656867E60 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -256,11 +254,11 @@
 				TargetAttributes = {
 					09673A7D1AEF5B2E008C7240 = {
 						CreatedOnToolsVersion = 6.3.1;
-						LastSwiftMigration = 0810;
+						LastSwiftMigration = 1010;
 					};
 					09673A921AEF5B2E008C7240 = {
 						CreatedOnToolsVersion = 6.3.1;
-						LastSwiftMigration = 0810;
+						LastSwiftMigration = 1010;
 						TestTargetID = 09673A7D1AEF5B2E008C7240;
 					};
 				};
@@ -305,79 +303,68 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		06EAF6B06624D9AF4CE82C6F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ZLSwipeableViewSwiftDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
 		4D987328BC4CEC44C1CC30CC /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
 			);
 			name = "[CP] Check Pods Manifest.lock";
 			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ZLSwipeableViewSwiftDemoTests-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		B70B17461CAA93E656867E60 /* [CP] Copy Pods Resources */ = {
+		C4886EB76F075B216CC700E8 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ZLSwipeableViewSwiftDemoTests/Pods-ZLSwipeableViewSwiftDemoTests-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		BA28B0EB3A205B986C485274 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
+			inputFileListPaths = (
 			);
 			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ZLSwipeableViewSwiftDemo/Pods-ZLSwipeableViewSwiftDemo-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		D24BFC2495CE4E130B5E094B /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
-			showEnvVarsInLog = 0;
-		};
-		E5D2B40DEBA6A247D56624AF /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ZLSwipeableViewSwiftDemo/Pods-ZLSwipeableViewSwiftDemo-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Cartography/Cartography.framework",
+				"${BUILT_PRODUCTS_DIR}/UIColor+FlatColors/UIColor_FlatColors.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Cartography.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/UIColor_FlatColors.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ZLSwipeableViewSwiftDemo/Pods-ZLSwipeableViewSwiftDemo-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ZLSwipeableViewSwiftDemo/Pods-ZLSwipeableViewSwiftDemo-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		F8F67696DEC4CE910050511D /* [CP] Embed Pods Frameworks */ = {
@@ -386,13 +373,18 @@
 			files = (
 			);
 			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ZLSwipeableViewSwiftDemoTests/Pods-ZLSwipeableViewSwiftDemoTests-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Cartography/Cartography.framework",
+				"${BUILT_PRODUCTS_DIR}/UIColor+FlatColors/UIColor_FlatColors.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Cartography.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/UIColor_FlatColors.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ZLSwipeableViewSwiftDemoTests/Pods-ZLSwipeableViewSwiftDemoTests-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ZLSwipeableViewSwiftDemoTests/Pods-ZLSwipeableViewSwiftDemoTests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -536,27 +528,29 @@
 		};
 		09673A9E1AEF5B2E008C7240 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4BA34855EB4A4C2074C86E94 /* Pods-ZLSwipeableViewSwiftDemo.debug.xcconfig */;
+			baseConfigurationReference = D476355E70B6A230FE0C373E /* Pods-ZLSwipeableViewSwiftDemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = ZLSwipeableViewSwiftDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.axcel.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 4.2;
 			};
 			name = Debug;
 		};
 		09673A9F1AEF5B2E008C7240 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4AEF23DC622C3A7E809F3742 /* Pods-ZLSwipeableViewSwiftDemo.release.xcconfig */;
+			baseConfigurationReference = CBC41A6172548089D989FB06 /* Pods-ZLSwipeableViewSwiftDemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = ZLSwipeableViewSwiftDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.axcel.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 4.2;
 			};
 			name = Release;
 		};
@@ -577,7 +571,8 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.axcel.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 4.2;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZLSwipeableViewSwiftDemo.app/ZLSwipeableViewSwiftDemo";
 			};
 			name = Debug;
@@ -595,7 +590,8 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.axcel.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 4.2;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZLSwipeableViewSwiftDemo.app/ZLSwipeableViewSwiftDemo";
 			};
 			name = Release;

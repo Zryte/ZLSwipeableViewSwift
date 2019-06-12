@@ -1,12 +1,12 @@
 target 'ZLSwipeableViewSwiftDemo' do
 	pod 'UIColor+FlatColors'
-	pod 'Cartography'
+  pod 'Cartography', '2.0.0'
 	# pod 'ReactiveUI'
 end
 
 target 'ZLSwipeableViewSwiftDemoTests' do
 	pod 'UIColor+FlatColors'
-	pod 'Cartography'
+	pod 'Cartography', '2.0.0'
 	# pod 'ReactiveUI'
 end
 
